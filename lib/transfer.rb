@@ -1,5 +1,7 @@
 class Transfer
   # your code here
-  attr_accessible :
-  attr_accessor :
+  attr_accessor :sender, :receive, :status, :amount
+  
+  def initialize(transfer)
+  end
 end
